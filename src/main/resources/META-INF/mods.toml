@@ -9,7 +9,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 [[mods]] #mandatory
 
-modId="repulsormod" #mandatory
+modId="repulsor" #mandatory
 
 version="1.16.3-1.0.0" #mandatory
 

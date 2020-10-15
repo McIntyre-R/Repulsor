@@ -8,10 +8,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("repulsormod")
+@Mod("repulsor")
 public class RepulsorMod
 {
     private static final Logger LOGGER = LogManager.getLogger();
+
+    public static final String MOD_ID ="repulsor";
 
     public RepulsorMod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
